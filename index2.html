@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="plugins/bootstrap-4/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap-rtl/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="plugins/slick-master/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="plugins/slick-master/slick/slick-theme.css"/>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class=" topheader">
+            <div class="col-md-6 d-md-inline-flex d-none mr-3 pt-1">
+                <p><a href="#" class="pl-3 pr-3 text-white">تماس با ما</a></p>
+                <p><a href="#" class="pl-3 text-white">حمایت از ما</a></p>
+                <p><a href="#" class="pl-3 text-white">تازه</a></p>
+            </div>
+            <div class="d-md-inline-flex search-menu">    
+                <ul class="list-unstyled d-md-inline-flex ml-1 ul-header">
+                    <li class="pl-1">
+                        <a href="#" class="a-icon a5">
+                            <i class="fa fa-instagram icon-header"></i>
+                        </a>
+                    </li>
+                    <li class="pl-1">
+                        <a href="#" class="a-icon a1" >
+                            <i class="fa fa-twitter icon-header"></i>
+                        </a>
+                    </li>
+                    <li class="pl-1">
+                        <a href="#" class="a-icon a2">
+                            <i class="fa fa-youtube icon-header"></i>
+                        </a>
+                    </li>
+                    <li class="pl-1">
+                        <a href="#" class="a-icon a3">
+                            <i class="fa fa-facebook icon-header"></i>
+                        </a>
+                    </li>
+                    <li class="pl-1">
+                        <a href="#" class="a-icon a4">
+                            <i class="fa fa-telegram icon-header"></i>
+                        </a>
+                    </li>
+                </ul>
+                <form action="search" class="d-flex  mt-1">
+                    <input type="text" class="search-field " placeholder="جستجو کن...">
+                    <button class="btn btn-sm form-search">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+                
+            </div>
+        </div>
+        <div class="header-center">
+                <div class="row justify-content-center justify-content-sm-between content">
+                        <div class="mr-2 d-flex justify-content-center">
+                            <img class="mr-3" src="img/logo.png" alt="" height="60px" width="200px">
+                        </div>
+                        <div class="time-header d-none d-sm-inline">
+                            <b>جمعه; 29 بهمن 1399</b>
+                            <b>|1 رجب 1442</b>
+                        </div>
+                    </div>
+                    <div>
+                        <nav class="navbar navbar-expand-lg navbar-light p-0">
+                            <a class="navbar-brand active text-white" href="#">خانه</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa fa-bars" aria-hidden="true"></i>                                
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        آخرین اخبار
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">ایران</a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">عکس</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">ورزشی</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            استان ها
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ویدئو ها
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+        </div>
+        <div class="breadcrumb d-none d-md-block">
+            <div class="container d-inline-flex">
+                <div class="breadcrumb-title">شما اینجا هستید » </div>
+                <ul class="list-unstyled d-inline-flex">
+                    <li class="pr-4">
+                        <a href="#" title="رادکانا" class="text-dark">صفحه اصلی » </a>
+                    </li>
+                    <li class="pr-4">
+                        آرشیو » 
+                        <a href="#" class="text-dark">تهران</a>
+                        ,
+                        <a href="#" class="text-dark">سیاسی</a>
+                        ,
+                        <a href="#" class="text-dark">اقتصادی</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <section class="mb-3">
+                    <div class="row justify-content-between">
+                        <div class="col-7">
+                            <small>
+                                <p class="d-inline">گروه:</p>
+                            </small>
+                            <a href="#" class="a-section-header">آخرین اخبار</a>
+                            <a href="#" class="a-section-header">/اجتماعی</a>
+                            <a href="#" class="a-section-header">/ایران</a>
+                            <a href="#" class="a-section-header">/خراسان رضوی</a>
+                            <a href="#" class="a-section-header">/فرهنگی</a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="icon-section">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="icon-section">
+                                <i class="fa fa-print" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="icon-section">
+                                <i class="fa fa-plus-square" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="icon-section">
+                                <i class="fa fa-minus-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-light mt-2">
+                        <div class="d-inline-flex mx-2 pt-2">
+                            <small>
+                                <p class="text-muted">شناسه:100</p>
+                            </small>
+                        </div>
+                        <div class="d-inline-flex mx-2 pt-2">
+                            <small>
+                                <p class="text-muted">09 فروردین 1399 22:36</p>
+                            </small>
+                        </div>
+                        <div class="d-inline-flex mx-2 pt-2">
+                            <small>
+                                <p class="text-muted">721 بازدید</p>
+                            </small>
+                        </div>
+                        <div class="d-inline-flex mx-2 pt-2">
+                            <small>
+                                <p class="text-muted">2 دیدگاه</p>
+                            </small>
+                        </div>
+                        <div class="d-inline-flex mx-2 pt-2">
+                            <small>
+                                <p class="text-muted d-inline">ارسالی از:</p>
+                                <a href="#">آبان نیوز</a>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="my-3">
+                        <small>
+                            <p class="text-muted text-center">دغدغه مقام معظم رهبری، دغدغه‌ای کاملا جدی است</p>                            
+                        </small>
+                    </div>
+                    <div>
+                        <div class="mb-3">
+                           <b>
+                                <a href="#" class="b-section">توضیح وزیر دادگستری درباره احتمال انحلال شورای دستگاه‌های نظارتی</a>
+                           </b>
+                        </div>
+                        <div class="bg-light row">
+                            <div class="col-md-4">
+                                <img src="img/1.jpg" width="100%" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <small>
+                                    <p class="text-muted">
+                                            به گزارش خبرنگار قضایی خبرگزاری نسیم حجت الاسلام پورمحمدی وزیر دادگستری در حاشیه همایش ارتقای سلامت اداری و مبارزه با فساد، در پاسخ به سوال خبرنگار تسنیم مبنی بر اینکه برخی شنیده‌ها از انحلال شورای دستگاه‌های نظارتی حکایت دارد                                        
+                                    </p>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <small>
+                                <p>
+                                    ه گزارش خبرنگار قضایی خبرگزاری نسیم حجت الاسلام پورمحمدی وزیر دادگستری در حاشیه همایش ارتقای سلامت اداری و مبارزه با فساد، در پاسخ به سوال خبرنگار تسنیم مبنی بر اینکه برخی شنیده‌ها از انحلال شورای دستگاه‌های نظارتی حکایت دارد، اظهار داشت: یک مشکل قانونی در خصوص این شورا با شورای نگهبان و مجمع تشخیص مصلحت نظام مطرح شده است که امیدواریم مشکل قانونی حل شود.
+                                </p>
+                                <p>
+                                        وی درباره اینکه آیا فعالیت شورای دستگاه‌های نظارتی مشکل قانونی دارد؟ گفت: مجمع تشخیص مصلحت نظام یک ایراد قانونی گرفته که امیدواریم این مشکل را حل کنیم.
+                                </p>
+                                <p>
+                                        پورمحمدی در پاسخ به سوال دیگری مبنی بر اینکه با توجه به پیام مقام معظم رهبری آیا این همایش، سال آینده نیز برگزار می‌شود یا خیر گفت: پس از پایان همایش جمع‌بندی‌های لازم را انجام می‌دهیم و فکر می‌کنم فضای مناسب‌تری برای برگزاری مجدد این همایش فراهم شود زیرا ما همایش ارتقای سلامت اداری و مبارزه با فساد را با نگاه کاربردی، نقادانه و ارائه کارهای انجام شده برگزار کردیم.
+                                </p>
+                                <p>
+                                        وزیر دادگستری افزود: دغدغه مقام معظم رهبری، دغدغه‌ای کاملا جدی است و خودمان نیز همین پیش‌بینی را داشتیم.
+                                </p>
+                                <p>
+                                        به گزارش خبرنگار قضایی خبرگزاری نسیم حجت الاسلام پورمحمدی وزیر دادگستری در حاشیه همایش ارتقای سلامت اداری و مبارزه با فساد، در پاسخ به سوال خبرنگار تسنیم مبنی بر اینکه برخی شنیده‌ها از انحلال شورای دستگاه‌های نظارتی حکایت دارد، اظهار داشت: یک مشکل قانونی در خصوص این شورا با شورای نگهبان و مجمع تشخیص مصلحت نظام مطرح شده است که امیدواریم مشکل قانونی حل شود.                                    
+                                </p>
+                                <p>
+                                        وی درباره اینکه آیا فعالیت شورای دستگاه‌های نظارتی مشکل قانونی دارد؟ گفت: مجمع تشخیص مصلحت نظام یک ایراد قانونی گرفته که امیدواریم این مشکل را حل کنیم.                                     
+                                </p>
+                                <p>
+                                        پورمحمدی در پاسخ به سوال دیگری مبنی بر اینکه با توجه به پیام مقام معظم رهبری آیا این همایش، سال آینده نیز برگزار می‌شود یا خیر گفت: پس از پایان همایش جمع‌بندی‌های لازم را انجام می‌دهیم و فکر می‌کنم فضای مناسب‌تری برای برگزاری مجدد این همایش فراهم شود زیرا ما همایش ارتقای سلامت اداری و مبارزه با فساد را با نگاه کاربردی، نقادانه و ارائه کارهای انجام شده برگزار کردیم
+                                </p>
+                                <p>
+                                    وزیر دادگستری افزود: دغدغه مقام معظم رهبری، دغدغه‌ای کاملا جدی است و خودمان نیز همین پیش‌بینی را داشتیم.
+                                </p>
+                                <p>
+                                    انتهای پیام/
+                                </p>
+                                <em class="d-block text-muted">نویسنده : رضا یاری</em>
+                                <em class="text-muted">منبع خبر : خبرگذاری فردا</em>
+                            </small>
+                        </div>
+                        <hr>
+                        <div class="row justify-content-between">
+                            <div class="col-md-5 bg-light">
+                                <div class="row justify-content-between mt-3">
+                                    <div>
+                                        <h6>اشتراک گذاری:</h6>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="icon-section"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="#" class="icon-section"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href="#" class="icon-section"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+                                        <a href="#" class="icon-section"><i class="fa fa-google" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 bg-light">
+                                <div class="row justify-content-between mt-3">
+                                    <div>
+                                        <p class="ml-2">لینک کوتاه:</p>
+                                    </div>
+                                    <div>
+                                        <a href="#">https://beyamooz.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="mb-3">
+                    <div class="box-header">
+                        <h4>
+                            <b>برچسب</b>
+                        </h4>
+                    </div>
+                    <div class="tag">
+                        <a href="#">اقتصاد</a>
+                        <a href="#">جهان</a>
+                        <a href="#">سرقت</a>
+                        <a href="#">کار</a>
+                        <a href="#">وزیر علوم</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="box-header">
+                        <h4>
+                            <b>اخبار مشابه</b>
+                        </h4>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-4 mt-2">
+                                <div class="card">
+                                    <a href="#">
+                                        <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
+                                    </a>
+                                <div class="card-body">
+                                    <small class="card-text2 text-muted d-block">
+                                        <i class="fa fa-stop"></i>
+                                        سردار سلیمانی:
+                                    </small>
+                                    <a href="#" class="text-card-a">
+                                            آقای روحانی! ژنرال نفتی‌تان با حمله‌های گازانبری حق‌مان را پایمال کرد
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-2">
+                                <div class="card">
+                                    <a href="#">
+                                        <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
+                                    </a>
+                                <div class="card-body">
+                                    <small class="card-text2 text-muted d-block">
+                                        <i class="fa fa-stop"></i>
+                                        سردار سلیمانی:
+                                    </small>
+                                    <a href="#" class="text-card-a">
+                                            آقای روحانی! ژنرال نفتی‌تان با حمله‌های گازانبری حق‌مان را پایمال کرد
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-2">
+                                <div class="card">
+                                    <a href="#">
+                                        <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
+                                    </a>
+                                <div class="card-body">
+                                    <small class="card-text2 text-muted d-block">
+                                        <i class="fa fa-stop"></i>
+                                        سردار سلیمانی:
+                                    </small>
+                                    <a href="#" class="text-card-a">
+                                            آقای روحانی! ژنرال نفتی‌تان با حمله‌های گازانبری حق‌مان را پایمال کرد
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="http://aban.demo-qaleb.ir/wp-content/uploads/2018/04/ads.png" width="100%" height="90px" alt="">
+                    </a>
+                </div>
+                <div>
+                    <div class="box-header my-3">
+                        <h4>
+                            <b>ثبت دیدگاه</b>
+                        </h4>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="hints col-2">
+                            <i class="fa fa-exclamation" aria-hidden="true"></i>
+                        </div>
+                        <div class="des-hints col-md-10">
+                            <ul class="list-unstyled">
+                                <li class="p-2 ">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    دیدگاه های ارسال شده توسط شما، پس از تایید توسط تیم مدیریت در وب منتشر خواهد شد.
+                                </li>
+                                <li class="p-2 ">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    دیدگاه های ارسال شده توسط شما، پس از تایید توسط تیم مدیریت در وب منتشر خواهد شد.
+                                </li>
+                                <li class="p-2 ">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    دیدگاه های ارسال شده توسط شما، پس از تایید توسط تیم مدیریت در وب منتشر خواهد شد.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                                <input type="text" class="form-control form-control-sm mb-2 bg-light" placeholder="نام کاربری">
+                                <input type="email" class="form-control form-control-sm mb-2 bg-light" id="inputEmail3"placeholder="ایمیل">
+                                <button type="submit" class="btn btn-primary btn-sm mb-3">ارسال</button>
+                        </div>
+                        <div class="col-6">
+                            <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="3" placeholder="متن پیام شما"></textarea>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="nav-page-2">
+                    <ul class="nav nav-tabs d-inline-flex" id="mytab">
+                        <li class="nav-item">
+                            <a href="#mahbob" class="nav-link3 btn btn-primary btn-sm active mx-1" id="tab-mahbob" data-toggle="tab" role="tab" aria-controls="home" aria-selected="true"><b>محبوب</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#jadid" class="nav-link2  btn btn-light btn-sm mx-1" id="tab-jadid" data-toggle="tab" role="tab" aria-controls="settings" aria-selected="false"><b>جدید</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#didgah" class="nav-link2 btn btn-light btn-sm mx-1" id="tab-didgah" data-toggle="tab" role="tab" aria-controls="profile" aria-selected="false"><b>دیدگاه ها</b></a>
+                        </li>
+                    </ul>
+                    <div class="tab-content mb-4">
+                        <div class="tab-pane active" id="mahbob"role="tabpanel" aria-labelledby="tab-mahbob">
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/2.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/3.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/1.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/4.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/2.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/4.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/3.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="jadid"role="tabpanel" aria-labelledby="tab-jadid">
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/1.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/2.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/4.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/4.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/3.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/3.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="img/2.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="col-8 col-8-nav">
+                                        <p class="p-nav"><a href="#" class="h6">قصد توهین نداشتم؛عذرخواهی می‌کنم</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="didgah"role="tabpanel" aria-labelledby="tab-didgah">
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="http://0.gravatar.com/avatar/96abe4ea1c300117815486ad9bf6d99c?s=65&d=mm&r=g"  class="img-didgah" alt="">
+                                    </div>
+                                    <div class="col-9 col-8-nav">
+                                      <a href="#">
+                                          <b><span class="span-didgah">محمد :</span></b>
+                                          <p class="p-didgah">
+                                                باید بگوییم ما در این ۲ سال و در پی بی‌قانونی وزیر همین دولت، در برودت سوزناک زمستان و زیر آفتاب سوزان تابستان...
+                                          </p>
+                                      </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="http://0.gravatar.com/avatar/96abe4ea1c300117815486ad9bf6d99c?s=65&d=mm&r=g"  class="img-didgah" alt="">
+                                    </div>
+                                    <div class="col-9 col-8-nav">
+                                      <a href="#">
+                                          <b><span class="span-didgah">عرفان :</span></b>
+                                          <p class="p-didgah">
+                                                باید بگوییم ما در این ۲ سال و در پی بی‌قانونی وزیر همین دولت، در برودت سوزناک زمستان و زیر آفتاب سوزان تابستان...
+                                          </p>
+                                      </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="http://0.gravatar.com/avatar/96abe4ea1c300117815486ad9bf6d99c?s=65&d=mm&r=g"  class="img-didgah" alt="">
+                                    </div>
+                                    <div class="col-9 col-8-nav">
+                                      <a href="#">
+                                          <b><span class="span-didgah">رسول :</span></b>
+                                          <p class="p-didgah">
+                                                باید بگوییم ما در این ۲ سال و در پی بی‌قانونی وزیر همین دولت، در برودت سوزناک زمستان و زیر آفتاب سوزان تابستان...
+                                          </p>
+                                      </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="item mt-3">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="http://0.gravatar.com/avatar/96abe4ea1c300117815486ad9bf6d99c?s=65&d=mm&r=g" class="img-didgah" alt="">
+                                    </div>
+                                    <div class="col-9 col-8-nav">
+                                      <a href="#">
+                                          <b><span class="span-didgah">علی :</span></b>
+                                          <p class="p-didgah">
+                                                باید بگوییم ما در این ۲ سال و در پی بی‌قانونی وزیر همین دولت، در برودت سوزناک زمستان و زیر آفتاب سوزان تابستان...
+                                          </p>
+                                      </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box-header">
+                        <h4>
+                            <b>اوقات شرعی</b>
+                        </h4>
+                    </div>
+                    <div>
+                        <span>
+                            <p class="text-oreng p-span">2:5</p>
+                            <p class="p-span">مانده تا</p>
+                            <p class="text-oreng p-span">غروب خورشید</p>
+                        </span>
+                        <div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <div>
+                                   <p class="p-azan">6:10:11</p>
+                                </div>
+                                <div>
+                                    <img src="http://aban.demo-qaleb.ir/wp-content/plugins/azan/s-flash.gif" alt="">
+                                    <p class="p-azan">اذان صبح</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <div>
+                                    <p class="p-azan">11:36:12</p>
+                                </div>
+                                <div>
+                                    <img src="http://aban.demo-qaleb.ir/wp-content/plugins/azan/s-flash.gif" alt="">
+                                    <p class="p-azan">اذان عشا</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <div>
+                                    <p class="p-azan">4:59:32</p>                             
+                                </div>
+                                <div>
+                                    <img src="http://aban.demo-qaleb.ir/wp-content/plugins/azan/s-flash.gif" alt="">
+                                    <p class="p-azan">اذان عصر</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <div>
+                                    <p class="p-azan">2:50:32</p>                             
+                                </div>
+                                <div>
+                                    <img src="http://aban.demo-qaleb.ir/wp-content/plugins/azan/s-flash.gif"  alt="">
+                                    <p class="p-azan">اذان ظهر</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <div>
+                                    <p class="p-azan">12:23:32</p>
+                                </div>
+                                <div>
+                                    <img src="http://aban.demo-qaleb.ir/wp-content/plugins/azan/s-flash.gif" alt="">
+                                    <p class="p-azan">اذان مغرب</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box-header mb-2">
+                        <h4>
+                            <b>تصادفی</b>
+                        </h4>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-video-camera"></i>    
+                                شیوه و ساز و کار ستاد گردشگری را دنبال و بررسی اجمالی از روند فعالیت ستاد داشتم 
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-camera"></i>    
+                                فعالیت این ستاد لازم،مفید و موثر است گرچه کاستی هایی نیز وجود دارد که باید مرتفع شود.
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-video-camera"></i>    
+                                دکتریِ مهندسیِ هسته ای و رانندگی در اسنپ
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-camera"></i>    
+                                به گزارش خبرگزاری مهر،”سید محمود میر لوحی” در بازدید از ستاد نوروزی شهرداری تهران اظهار داشت:
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-camera"></i>    
+                                دکتریِ مهندسیِ هسته ای و رانندگی در اسنپ
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-video-camera"></i>    
+                                دکتریِ مهندسیِ هسته ای و رانندگی در اسنپ
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-video-camera"></i>    
+                                شفر: بازیکنان ما برای جام جهانی آماده هستند
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-video-camera"></i>    
+                                بیانات اخیر سردار سلیمانی لرزه بر پیکره استکبار انداخت
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-camera"></i>    
+                                دکتریِ مهندسیِ هسته ای و رانندگی در اسنپ
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-video-camera"></i>    
+                                هاشمی‌طباء: کار ممیزی و انتظامی در کنار کار فرهنگی مورد نیاز است
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-camera"></i>    
+                                دکتریِ مهندسیِ هسته ای و رانندگی در اسنپ
+                            </a>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="#" class="a-item">
+                                <i class="fa fa-video-camera"></i>    
+                                آقای روحانی! ژنرال نفتی‌تان با حمله‌های گازانبری حق‌مان را پایمال کرد
+                            </a>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="mb-4">
+                    <div class="box-header">
+                        <h4>
+                            <b>اجتماعی</b>
+                        </h4>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="http://aban.demo-qaleb.ir/wp-content/uploads/2018/03/52.jpeg" width="100%" alt="">
+                        </a>
+                        <div>
+                            <small class="small-box">
+                                <i class="fa fa-stop"></i>
+                                 عضو شورای اسلامی شهر تهران گفت:
+                            </small>
+                            <a href="#" class="a-box2">
+                                    پسوندهای منفی را از تهران جدا کنیم/از ظرفیت های گردشگری غافلیم
+                            </a>
+                        </div>
+                        <hr class="mt-4">
+                    </div>
+                    <div>
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            آنچه در نشست روحانی، پوتین و علی اف گذشت
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            انتقاد علی خسروی داور و کارشناس از بازی های المپیک ریو
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            توضیح وزیر دادگستری درباره احتمال انحلال شورای دستگاه‌های نظارتی
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            انتقاد علی خسروی داور و کارشناس از بازی های المپیک ریو
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            گسترش رشته های کاربردی دانشگاه پیام نور/ راه اندازی شبکه نوآوری
+                        </a>
+                        <hr class="hr-box">
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="box-header">
+                        <h4>
+                            <b>اقتصادی</b>
+                        </h4>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="http://aban.demo-qaleb.ir/wp-content/uploads/2018/03/77o.jpg" width="100%" alt="">
+                        </a>
+                        <div>
+                            <small class="small-box">
+                                <i class="fa fa-stop"></i>
+                                    عضو شورای اسلامی شهر تهران گفت:
+                            </small>
+                            <a href="#" class="a-box2">
+                                    پسوندهای منفی را از تهران جدا کنیم/از ظرفیت های گردشگری غافلیم
+                            </a>
+                        </div>
+                        <hr class="mt-4">
+                    </div>
+                    <div>
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            آنچه در نشست روحانی، پوتین و علی اف گذشت
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            انتقاد علی خسروی داور و کارشناس از بازی های المپیک ریو
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            توضیح وزیر دادگستری درباره احتمال انحلال شورای دستگاه‌های نظارتی
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            انتقاد علی خسروی داور و کارشناس از بازی های المپیک ریو
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            گسترش رشته های کاربردی دانشگاه پیام نور/ راه اندازی شبکه نوآوری
+                        </a>
+                        <hr class="hr-box">
+                    </div>
+                </div>
+                <div>
+                    <div class="box-header">
+                        <h4>
+                            <b>ورزشی</b>
+                        </h4>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="http://aban.demo-qaleb.ir/wp-content/uploads/2018/03/636060666476538492.jpg" width="100%" alt="">
+                        </a>
+                        <div>
+                            <small class="small-box">
+                                <i class="fa fa-stop"></i>
+                                    عضو شورای اسلامی شهر تهران گفت:
+                            </small>
+                            <a href="#" class="a-box2">
+                                    پسوندهای منفی را از تهران جدا کنیم/از ظرفیت های گردشگری غافلیم
+                            </a>
+                        </div>
+                        <hr class="mt-4">
+                    </div>
+                    <div>
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            آنچه در نشست روحانی، پوتین و علی اف گذشت
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            انتقاد علی خسروی داور و کارشناس از بازی های المپیک ریو
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            توضیح وزیر دادگستری درباره احتمال انحلال شورای دستگاه‌های نظارتی
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            انتقاد علی خسروی داور و کارشناس از بازی های المپیک ریو
+                        </a>
+                        <hr class="hr-box">
+                        <a href="#" class="p-azan text-dark">
+                            <i class="fa fa-stop"></i>
+                            گسترش رشته های کاربردی دانشگاه پیام نور/ راه اندازی شبکه نوآوری
+                        </a>
+                        <hr class="hr-box">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content end -->
+    <!-- footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="item-footer pt-4">
+                            <h4 class="text-white">
+                                درباره ی سایت
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img src="http://aban.demo-qaleb.ir/wp-content/uploads/2018/11/logo.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-footer-top-p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-footer mb-4 pt-4">
+                            <h4 class="text-white">
+                                جدید ترین مطالب
+                            </h4>
+                        </div>
+                        <ul class="ul-footer list-unstyled">
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        <i class="fa fa-stop"></i>
+                                        هاشمی‌طباء: کار ممیزی و انتظامی در کنار کار فرهنگی مورد نیاز است
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        <i class="fa fa-stop"></i>
+                                        هاشمی‌طباء: کار ممیزی و انتظامی در کنار کار فرهنگی مورد نیاز است
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        <i class="fa fa-stop"></i>
+                                        هاشمی‌طباء: کار ممیزی و انتظامی در کنار کار فرهنگی مورد نیاز است
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        <i class="fa fa-stop"></i>
+                                        هاشمی‌طباء: کار ممیزی و انتظامی در کنار کار فرهنگی مورد نیاز است
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        <i class="fa fa-stop"></i>
+                                        هاشمی‌طباء: کار ممیزی و انتظامی در کنار کار فرهنگی مورد نیاز است
+                                    </small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="item-footer mb-4 pt-4">
+                            <h4 class="text-white-2">دسترسی سریع</h4>
+                        </div>
+                        <ul class="ul-footer list-unstyled">
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        در باره ی ما
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        تماس با ما
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        استخدام
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        حمایت از ما
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        تبلیغات   
+                                    </small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="item-footer mb-4 pt-4">
+                            <h4 class="text-white">
+                                خط مشی
+                            </h4>
+                        </div>
+                        <ul class="ul-footer list-unstyled">
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        احزاب
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        امنیتی و دفاعی
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        ورزشی 
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        نتایج زنده
+                                    </small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <small class="text-footer-top">
+                                        جداول لیگ
+                                    </small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btn-footer">
+                    <div>
+                        <p class="text-white mb-3">برچسب ها</p>
+                    </div>
+                    <div>
+                        <a href="#">
+                            سرقت
+                        </a>
+                        <a href="#">
+                            ایران
+                        </a>
+                        <a href="#">
+                            کشتی
+                        </a>
+                        <a href="#">
+                            المپیک
+                        </a>
+                        <a href="#">
+                            والیبال
+                        </a>
+                        <a href="#">
+                            ایران
+                        </a>
+                        <a href="#">
+                            اقتصاد
+                        </a>
+                        <a href="#">
+                            بیانیه
+                        </a>
+                        <a href="#">
+                            ورزش
+                        </a>
+                        <a href="#">
+                            اقتصاد
+                        </a>
+                        <a href="#">
+                            اقتصاد
+                        </a>
+                        <a href="#">
+                            بین الملل
+                        </a>
+                        <a href="#">
+                            فوتبال
+                        </a>
+                        <a href="#">
+                            یادداشت
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-top2 pt-3">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="a2-footer">
+                        خوراک
+                    </a>
+                    <a href="#" class="a2-footer">
+                        آب وهوا
+                    </a>
+                    <a href="#" class="a2-footer">
+                        قیمت ها
+                    </a>
+                    <a href="#" class="a2-footer">
+                        اوقات شرعی
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <hr class="mx-2 hr-footer">
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="col-12 col-md-4 d-inline-flex align-content-center">
+                    <div>
+                        <img src="http://aban.demo-qaleb.ir/wp-content/uploads/2018/11/footer-logo.png" alt="">
+                    </div>
+                    <div class="mr-2">
+                        <small>
+                            <p class="text-p-footer">
+                                تمام حقوق این وب سایت برای خبرگزاری آفتاب محفوظ است
+                            نشر مطالب با ذکر نام خبرگزاری آفتاب بلامانع اس                   
+                            طراحی سایت : 
+                            </p>
+                        </small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 d-flex justify-content-end">
+                    <ul class="list-unstyled d-md-inline-flex ml-1 ul-header">
+                        <li class="pl-1 py-2">
+                            <a href="#" class="a-icon a5">
+                                <i class="fa fa-instagram icon-header"></i>
+                            </a>
+                        </li>
+                        <li class="pl-1 py-2">
+                            <a href="#" class="a-icon a1" >
+                                <i class="fa fa-twitter icon-header"></i>
+                            </a>
+                        </li>
+                        <li class="pl-1 py-2">
+                            <a href="#" class="a-icon a2">
+                                <i class="fa fa-youtube icon-header"></i>
+                            </a>
+                        </li>
+                        <li class="pl-1 py-2">
+                            <a href="#" class="a-icon a3">
+                                <i class="fa fa-facebook icon-header"></i>
+                            </a>
+                        </li>
+                        <li class="pl-1 py-2">
+                            <a href="#" class="a-icon a4">
+                                <i class="fa fa-telegram icon-header"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="plugins/bootstrap-4/dist/js/bootstrap.min.js"></script>
+    <script src="plugins/jquery/dist/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="plugins/slick-master/slick/slick.min.js"></script>
+</body>
+</html>
